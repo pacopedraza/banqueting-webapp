@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Recipe from '@/components/Recipe'
+import Recipe from "@/components/Recipe";
 
 export default {
   components: {
