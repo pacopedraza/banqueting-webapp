@@ -1,9 +1,13 @@
 <template>
   <header>
+    <div class="header">
+      <img src="../img/banqueting_logo.jpg" alt="logo" />
+    </div>
     <nav>
       <ul>
+        <li><nuxt-link to=""></nuxt-link></li>
         <li><nuxt-link to="/">Inicio</nuxt-link></li>
-        <li><nuxt-link to="/recipes">Imagenes</nuxt-link></li>
+        <li><nuxt-link to="/recipes">Fotos</nuxt-link></li>
         <li><nuxt-link to="/gallery">Futura Seccion</nuxt-link></li>
       </ul>
     </nav>
@@ -13,11 +17,18 @@
 <style scoped>
 header {
   width: 100%;
-  height: 30px;
+  height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  background-color: #521751;
+  background-color: #494942;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 ul{
