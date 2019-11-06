@@ -2,9 +2,9 @@
   <header>
     <nav>
       <ul>
-        <li><nuxt-link to="/">Starting Page</nuxt-link></li>
-        <li><nuxt-link to="/recipes">Recipes</nuxt-link></li>
-        <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
+        <li><nuxt-link to="/">Inicio</nuxt-link></li>
+        <li><nuxt-link to="/recipes">Imagenes</nuxt-link></li>
+        <li><nuxt-link to="/gallery">Futura Seccion</nuxt-link></li>
       </ul>
     </nav>
   </header>
