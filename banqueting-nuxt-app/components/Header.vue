@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header">
-      <img src="../img/banqueting_logo.jpg" alt="logo" />
+      <img src="../assets/images/banqueting_logo.jpg" alt="logo" />
     </div>
     <nav>
       <ul>

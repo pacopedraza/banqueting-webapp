@@ -8,6 +8,9 @@
 # install dependencies
 $ npm run install
 
+# if cloning and working in different station, no install needed
+$ npm i nuxt-start
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
