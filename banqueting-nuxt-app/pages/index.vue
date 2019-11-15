@@ -9,9 +9,12 @@
       </h6>
       <h3>
         <p>Banqueting</p>
-        <p>Eventos</p>
-        <p>&</p>
-        <p>Catering</p>
+        <br />
+	      <br />
+	      <br />
+        Eventos & <br />
+	      Catering
+	      <br />
       </h3>
     </div>
     <div class="class-history">
@@ -37,13 +40,10 @@
     </div>
     <div class="class-contacto">
         <form action="/action_page.php">
-          <label for="fname">Nombre</label>
-          <input type="text" id="fname" name="firstname" placeholder="Tu nombre...">
+          <input type="text" id="fname" name="firstname" placeholder="Nombre...">
 
-          <label for="lname">E-mail</label>
-          <input type="text" placeholder="Tu email..." name="email" required>
+          <input type="text" placeholder="E-mail..." name="email" required>
 
-          <label for="event">Evento</label>
           <select id="event" name="event">
             <option value="boda">Boda</option>
             <option value="xvanios">XV Años</option>
@@ -52,7 +52,6 @@
             <option value="otro">Social/Otro</option>
           </select>
 
-           <label for="subject">Información</label>
            <textarea id="subject" name="subject" placeholder="Cuentamos..." style="height:200px"></textarea>
 
             <input type="submit" value="Enviar">
@@ -90,7 +89,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -111,6 +110,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+  position: left;
 }
 
 .container {
