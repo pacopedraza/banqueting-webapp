@@ -2,19 +2,18 @@
 <body>
   <section class="container">
     <div class="class-title">
-      <h6>
-        <p>Celaya, Guanajuato</p>
-        <p>Ll&aacute;manos</p>
-        <p>(+521)46138096</p>
-      </h6>
       <h3>
-        <p>Banqueting</p>
+        <br />
         <br />
 	      <br />
 	      <br />
-        Eventos & <br />
-	      Catering
+        <br />
 	      <br />
+	      <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </h3>
     </div>
     <div class="class-history">
@@ -63,23 +62,22 @@
 
 <style scoped>
 .class-title {
-  background-image: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/29060313_1700246653367799_6684467646458635766_o.jpg?_nc_cat=110&_nc_oc=AQlEREsVcxdKA8qqfqxLLcNosEOfRfrZAI2L2oXSYwSPBY6uBfAmYSfJZCBvPdvBz7c&_nc_ht=scontent-sjc3-1.xx&oh=b4ddaf8eea0bcc927480def08e9b2122&oe=5E4D8865');
+  background-image: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/892272_485102024882274_1029751940_o.jpg?_nc_cat=104&_nc_oc=AQk7OqBFeqXzjV4HWSJEbvsRXH7Dh7ah9bNxkYV5YJhgGyeSXduYJF9GKOflf3ae8kM&_nc_ht=scontent-sjc3-1.xx&oh=3bc6595b49334797ef5e6b732f5dc77d&oe=5E8B99A9');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top; 
-  background-size: 100% 100%;
+  background-position: right top;
+  background-size: auto;
   
   max-width: 100%;
+  height: auto;
+  width: auto\9;
+  
   z-index: 0;
 }
 
 h3 {
   color:white;
   text-align: center;
-}
-h6 {
-  color: white;
-  text-align: right;
 }
 html{
     height: 100%
