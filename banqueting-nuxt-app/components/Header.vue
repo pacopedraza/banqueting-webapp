@@ -2,6 +2,7 @@
   <header>
     <div class="header">
       <img src="../assets/images/banqueting_logo.jpg" alt="logo" />
+      <link rel="icon" href="../assets/images/banqueting_logo.jpg"/>
     </div>
     <nav>
       <ul>
@@ -15,6 +16,8 @@
     <a href="https://www.facebook.com/banquetingcelaya/" class="fa fa-facebook"></a>
     <a href="https://www.instagram.com/banqueting/?hl=es" class="fa fa-instagram"></a>
     <a href="tel:5214611783479" class="fa fa-whatsapp" style="font-size:70px;color:green"></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </header>
  
 </template>

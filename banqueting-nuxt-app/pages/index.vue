@@ -36,41 +36,21 @@
         <div class="class-contact">
           <br />
     </div>
-<div class="class-contacto">
-  <div style="text-align:center">
-    <h2>Contactanos</h2>
+  <div style="contact">
+    <h2>Contáctanos</h2>
     <p>Será un placer atenderte</p>
     <p>Tel Oficina: 52146138096</p>
-
+    <address>
+      
+      <button style="font-size:24px"><i class="material-icons">email</i>
+      <a href="mailto:paco_fjpg@hotmail.com">Email</a>
+      </button>
+      <br />
+      <br />
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=banqueting%20celaya&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount code</a></div><style>.mapouter{position:center;text-align:right;height:400px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:800px;}</style></div>
+    </address>
+    
   </div>
-  <p>
-  </p>
-  <div class="row">
-    <div class="column">
-      <img src="../assets/images/mapa_banqueting.jpeg" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="send_email.php">
-        <label for="fname">Nombre</label>
-        <input type="text" id="fname" name="fname" placeholder="Tú nombre..">
-        <label for="tel">Teléfono</label>
-        <input type="text" id="tel" name="tel" placeholder="Tu teléfono...">
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Tu email...">
-        <label for="evento">Evento/Servicio</label>
-        <select id="evento" name="evento">
-          <option value="boda">Boda</option>
-          <option value="xv">XV Años</option>
-          <option value="empresarial">Empresarial</option>
-          <option value="graduacion">Graduación</option>
-          <option value="renta">Renta de mobiliario</option>
-        </select>
-        <textarea id="subject" name="subject" placeholder="Descripción del servicio..." style="height:170px"></textarea>
-        <input type="submit" value="Enviar">
-      </form>
-    </div>
-  </div>
-</div>
   </section>
   </body>
 </template>
@@ -81,11 +61,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  
-  
   background-size:contain;
-
   display: flex;
+  background-color: gray;
+}
+.contact {
+  position: center;
 }
 
 h3 {
@@ -100,57 +81,6 @@ html{
   box-sizing: border-box;
 }
 
-/* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #654321;
-}
-
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 
 </style>
 
