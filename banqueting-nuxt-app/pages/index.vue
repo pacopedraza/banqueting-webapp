@@ -36,36 +36,37 @@
         <div class="class-contact">
           <br />
     </div>
-  <div style="contact">
-    <h2>Contáctanos</h2>
-    <p>Será un placer atenderte</p>
-    <p>Tel Oficina: 52146138096</p>
+    <div style="contact">
+        <h2>Contáctanos</h2>
+        <p>Será un placer atenderte</p>
+        <a href="tel:5214611783479" class="fa fa-whatsapp" style="font-size:50px;color:green"></a>
+        <br />
     <address>
-      
+      <br />
       <button style="font-size:24px"><i class="material-icons">email</i>
-      <a href="mailto:paco_fjpg@hotmail.com">Email</a>
+          <a href="mailto:paco_fjpg@hotmail.com">Email</a>
       </button>
       <br />
       <br />
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=banqueting%20celaya&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount code</a></div><style>.mapouter{position:center;text-align:right;height:400px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:800px;}</style></div>
+      <div class="mapouter">
+         <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=banqueting%20celaya&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+         </div>
+         <style>.mapouter{position:center;text-align:left;}.gmap_canvas {overflow:hidden;background:none!important;}</style>
+      </div>
     </address>
     
-  </div>
-  </section>
+    </div>
+</section>
   </body>
 </template>
 
 <style scoped>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-* {box-sizing: border-box;}
-
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 20px;  
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .class-title {
@@ -88,7 +89,6 @@ h3 {
 html{
     height: 100%
 }
-
 
 </style>
 

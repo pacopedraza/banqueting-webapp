@@ -1,9 +1,9 @@
 <template>
   <header>
-    <div class="header">
-      <img src="../assets/images/banqueting_logo.jpg" alt="logo" />
-      <link rel="icon" href="../assets/images/banqueting_logo.jpg"/>
-    </div>
+    <div class="header" data-hide-for="small">
+      <img src="../assets/images/banqueting_logo.jpg" alt="logo"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
     <nav>
       <ul>
         <li><nuxt-link to=""></nuxt-link></li>
@@ -11,26 +11,28 @@
         <li><nuxt-link to="/recipes">Galería</nuxt-link></li>
       </ul>
     </nav>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <a href="https://www.facebook.com/banquetingcelaya/" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/banqueting/?hl=es" class="fa fa-instagram"></a>
-    <a href="tel:5214611783479" class="fa fa-whatsapp" style="font-size:70px;color:green"></a>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+          <a href="https://www.facebook.com/banquetingcelaya/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/banqueting/?hl=es" class="fa fa-instagram"></a>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </div>
   </header>
  
 </template>
 
 <style scoped>
-header {
+.header {
   width: 100%;
   height: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: right;
   align-items: center;
   background-color: #494942;
 }
+
 .header img {
   float: left;
   width: 100px;
@@ -39,7 +41,7 @@ header {
   border-radius: 50%;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -59,8 +61,8 @@ a {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 70px;
+  font-size: 15px;
+  width: 55px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -82,11 +84,12 @@ a {
   background: #C13584;
   color: white;
   position: absolute;
-  right: 90px;
+  right: 60px;
 }
 
 .fa-whatsapp {
   position: absolute;
-  right: 200px;
+  right: 135px;
 }
+
 </style>
