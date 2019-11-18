@@ -4,7 +4,6 @@
     <div class="class-title">
       <h3>
         <br />
-        <br />
 	      <br />
 	      <br />
         <br />
@@ -17,6 +16,7 @@
       </h3>
     </div>
     <div class="class-history">
+      <br />
       <h4>Historia</h4>
       <p>Somos una empresa dedicada al rubro gastronomico y de eventos sociales Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
@@ -34,28 +34,43 @@
       </p>
     </div>
         <div class="class-contact">
-      <p>Celaya, Guanajuato</p>
-      <p>46138096</p>
+          <br />
     </div>
-    <div class="class-contacto">
-        <form action="/action_page.php">
-          <input type="text" id="fname" name="firstname" placeholder="Nombre...">
+<div class="class-contacto">
+  <div style="text-align:center">
+    <h2>Contactanos</h2>
+    <p>Será un placer atenderte</p>
+    <p>Tel Oficina: 52146138096</p>
 
-          <input type="text" placeholder="E-mail..." name="email" required>
-
-          <select id="event" name="event">
-            <option value="boda">Boda</option>
-            <option value="xvanios">XV Años</option>
-            <option value="empresa">Empresarial</option>
-            <option value="grad">Graduación</option>
-            <option value="otro">Social/Otro</option>
-          </select>
-
-           <textarea id="subject" name="subject" placeholder="Cuentamos..." style="height:200px"></textarea>
-
-            <input type="submit" value="Enviar">
-          </form>
-      </div>
+  </div>
+  <p>
+  </p>
+  <div class="row">
+    <div class="column">
+      <img src="../assets/images/mapa_banqueting.jpeg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="send_email.php">
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="fname" placeholder="Tú nombre..">
+        <label for="tel">Teléfono</label>
+        <input type="text" id="tel" name="tel" placeholder="Tu teléfono...">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Tu email...">
+        <label for="evento">Evento/Servicio</label>
+        <select id="evento" name="evento">
+          <option value="boda">Boda</option>
+          <option value="xv">XV Años</option>
+          <option value="empresarial">Empresarial</option>
+          <option value="graduacion">Graduación</option>
+          <option value="renta">Renta de mobiliario</option>
+        </select>
+        <textarea id="subject" name="subject" placeholder="Descripción del servicio..." style="height:170px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+</div>
   </section>
   </body>
 </template>
@@ -65,14 +80,12 @@
   background-image: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/892272_485102024882274_1029751940_o.jpg?_nc_cat=104&_nc_oc=AQk7OqBFeqXzjV4HWSJEbvsRXH7Dh7ah9bNxkYV5YJhgGyeSXduYJF9GKOflf3ae8kM&_nc_ht=scontent-sjc3-1.xx&oh=3bc6595b49334797ef5e6b732f5dc77d&oe=5E8B99A9');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right top;
-  background-size: auto;
+  background-position: center top;
   
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
   
-  z-index: 0;
+  background-size:contain;
+
+  display: flex;
 }
 
 h3 {
@@ -83,15 +96,15 @@ html{
     height: 100%
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
+/* Style inputs */
 input[type=text], select, textarea {
-  width: 50%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -102,19 +115,41 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-  position: left;
+  background-color: #654321;
 }
 
+/* Style the container/contact section */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
   padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 </style>
