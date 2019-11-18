@@ -56,6 +56,18 @@
 </template>
 
 <style scoped>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 .class-title {
   background-image: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/892272_485102024882274_1029751940_o.jpg?_nc_cat=104&_nc_oc=AQk7OqBFeqXzjV4HWSJEbvsRXH7Dh7ah9bNxkYV5YJhgGyeSXduYJF9GKOflf3ae8kM&_nc_ht=scontent-sjc3-1.xx&oh=3bc6595b49334797ef5e6b732f5dc77d&oe=5E8B99A9');
   background-repeat: no-repeat;
@@ -63,7 +75,6 @@
   background-position: center top;
   background-size:contain;
   display: flex;
-  background-color: gray;
 }
 .contact {
   position: center;
@@ -73,12 +84,9 @@ h3 {
   color:white;
   text-align: center;
 }
+
 html{
     height: 100%
-}
-
-* {
-  box-sizing: border-box;
 }
 
 
