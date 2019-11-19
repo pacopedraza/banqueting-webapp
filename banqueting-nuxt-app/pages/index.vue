@@ -18,12 +18,28 @@
     <div class="class-history">
       <br />
       <h4>Historia</h4>
-      <p>Somos una empresa dedicada al rubro gastronómico y de eventos sociales con más de 25 años de experiencia.
+      <p>
+        Somos una empresa dedicada al rubro gastronómico y de eventos sociales con más de 25 años de experiencia.
         Atendemos todo tipo de eventos como: bodas, XV años, aniversarios, empresariales y graduaciones.
         Tenemos capacidad para atender eventos de hasta 3000 personas, así como servicio dentro del área del Bajío.
+        La mejora continua es parte de nuestra filosofía y orgullosamente somos miembros y tenemos las siguientes 
+        certificaciones.
+        Punto Limpio y Lest Toques Blanches, así mismo somos miembros de CANIRAC.
       </p>
     </div>
+    <div class="row-cert">
+      <div class="column-cert">
+        <img src="../assets/images/banqueting_puntolimpio.png" alt="Snow" style="width:40%">
+      </div>
+      <div class="column-cert">
+        <img src="../assets/images/banqueting_ltb.png" alt="Mountains" style="width:40%">
+      </div>
+    </div>
     <div class="class-mission">
+        <br />
+        <br />
+        <br />
+        <br />
       <h4>Misi&oacute;n</h4>
       <p>
         Satisfacer las necesidades de nuestros clientes, y que su evento sea tal y como ellos lo desean.
@@ -45,8 +61,8 @@
         <br />
     <address>
       <br />
-      <button style="font-size:24px"><i class="material-icons">email</i>
-          <a href="mailto:isela@banquetingeventos.com?cc=ethelpedraza@banquetingeventos.com">Email</a>
+      <button style="font-size:14px"><i class="material-icons">email</i>
+          <a href="mailto:contacto@banquetingeventos.com">contacto@banquetingeventos.com</a>
       </button>
       <br />
       <br />
@@ -66,6 +82,27 @@
   padding: 20px;  
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
+/* Certification images css */
+* {
+  box-sizing: border-box;
+}
+
+.column-cert {
+  display: inline-block;
+  width: 33.33%;
+  padding: 5px;
+  height: auto;
+  position: center;
+}
+
+/* Clearfix (clear floats) */
+.row-cert::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Certification images css ends */
 
 .class-title {
   background-image: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/892272_485102024882274_1029751940_o.jpg?_nc_cat=104&_nc_oc=AQk7OqBFeqXzjV4HWSJEbvsRXH7Dh7ah9bNxkYV5YJhgGyeSXduYJF9GKOflf3ae8kM&_nc_ht=scontent-sjc3-1.xx&oh=3bc6595b49334797ef5e6b732f5dc77d&oe=5E8B99A9');
