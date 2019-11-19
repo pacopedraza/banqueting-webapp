@@ -20,7 +20,7 @@
       <h4>Historia</h4>
       <p>Somos una empresa dedicada al rubro gastronómico y de eventos sociales con más de 25 años de experiencia.
         Atendemos todo tipo de eventos como: bodas, XV años, aniversarios, empresariales y graduaciones.
-        Tenemos capacidad para atender eventos de hasta 3000 personas, así como servicio dentro del aárea del Bajío.
+        Tenemos capacidad para atender eventos de hasta 3000 personas, así como servicio dentro del área del Bajío.
       </p>
     </div>
     <div class="class-mission">
@@ -46,7 +46,7 @@
     <address>
       <br />
       <button style="font-size:24px"><i class="material-icons">email</i>
-          <a href="mailto:paco_fjpg@hotmail.com">Email</a>
+          <a href="mailto:isela@banquetingeventos.com?cc=ethelpedraza@banquetingeventos.com">Email</a>
       </button>
       <br />
       <br />
