@@ -28,9 +28,10 @@
   height: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
   background-color: #494942;
+  position: relative;
 }
 
 .header img {
